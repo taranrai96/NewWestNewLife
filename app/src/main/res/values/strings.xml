@@ -1,3 +1,17 @@
+<!--
+  ~ Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Last modified 11/10/17 1:00 PM
+  -->
+
 <resources>
     <string name="app_name">New West New Life</string>
+    <string name="logo_desc">Image not Available</string>
+    <string name="history_button">History of New Westminster</string>
+    <string name="food_button">Food Programs and Services</string>
+    <string name="water_button">Water Fountains on a Map</string>
+    <string name="news_button">News about New Westminster</string>
+    <string name="about_button">About us</string>
+    <string name="copyright_text">Copyright© 2017 Taran Rai Chris Kwon</string>
 </resources>
