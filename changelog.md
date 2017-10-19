@@ -17,3 +17,10 @@ Release Date: Oct 11, 2017
 - Adding Splash Activity (Application loading screen)
 - Adding Homepage Activity
 - Adding logo to the app
+
+## Version 0.0.3
+
+Release Date: Oct 19, 2017
+
+- Adding History Activity
+

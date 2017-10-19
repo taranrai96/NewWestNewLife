@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Taran Rai Chris Kwon on 19/10/17 11:39 AM
+  ~ Copyright (c) 2017. All rights reserved
+  ~
+  ~ Last modified 19/10/17 11:39 AM
+  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_history"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        tools:context="ca.bcit.project.newwestnewlife.HistoryActivity">
+
+        <TextView
+            android:id="@+id/historyBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/historyBanner" />
+
+        <com.xenione.library.BeforeAfterCoordinatorLayout
+            android:id="@+id/image1"
+            style="@style/historyImage" />
+
+        <TextView
+            android:id="@+id/history_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history_1"
+            style="@style/historyText"/>
+
+        <com.xenione.library.BeforeAfterCoordinatorLayout
+            android:id="@+id/image2"
+            style="@style/historyImage" />
+
+        <TextView
+            android:id="@+id/history_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history_2"
+            style="@style/historyText"/>
+
+        <com.xenione.library.BeforeAfterCoordinatorLayout
+            android:id="@+id/image3"
+            style="@style/historyImage" />
+
+        <TextView
+            android:id="@+id/history_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history_3"
+            style="@style/historyText"/>
+
+        <com.xenione.library.BeforeAfterCoordinatorLayout
+            android:id="@+id/image4"
+            style="@style/historyImage" />
+
+        <TextView
+            android:id="@+id/history_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history_4"
+            style="@style/historyText"/>
+
+        <TextView
+            android:id="@+id/history_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history_5"
+            style="@style/historyText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright_text"
+            android:layout_marginBottom="50dp"
+            style="@style/copyrightStyle" />
+
+    </LinearLayout>
+
+</ScrollView>
