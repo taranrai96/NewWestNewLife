@@ -33,4 +33,28 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">30dp</item>
     </style>
+
+    <style name="historyBanner">
+
+        <item name="android:text">@string/history_banner</item>
+        <item name="android:background">#2196f3</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14pt</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="historyImage">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="historyText">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:gravity">center</item>
+    </style>
 </resources>
