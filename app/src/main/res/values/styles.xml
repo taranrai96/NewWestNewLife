@@ -1,8 +1,8 @@
 <!--
-  ~ Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+  ~ Created by Taran Rai Chris Kwon on 17/11/17 2:06 PM
   ~ Copyright (c) 2017. All rights reserved
   ~
-  ~ Last modified 11/10/17 12:55 PM
+  ~ Last modified 16/11/17 8:04 PM
   -->
 
 <resources>
@@ -16,8 +16,8 @@
     </style>
 
     <style name="buttonStyle" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:background">#2196f3</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/White</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">20dp</item>
     </style>
@@ -29,16 +29,15 @@
     </style>
 
     <style name="copyrightStyle">
-        <item name="android:textColor">#d3d3d3</item>
+        <item name="android:textColor">@color/copyright_text</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginTop">30dp</item>
     </style>
 
-    <style name="historyBanner">
-
+    <style name="ActivityBanner">
         <item name="android:text">@string/history_banner</item>
-        <item name="android:background">#2196f3</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/White</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14pt</item>
         <item name="android:gravity">center</item>
@@ -57,4 +56,17 @@
         <item name="android:textSize">8pt</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="device_info">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="detail_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
 </resources>

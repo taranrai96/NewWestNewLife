@@ -1,8 +1,8 @@
 <!--
-  ~ Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+  ~ Created by Taran Rai Chris Kwon on 17/11/17 2:06 PM
   ~ Copyright (c) 2017. All rights reserved
   ~
-  ~ Last modified 11/10/17 1:00 PM
+  ~ Last modified 17/11/17 1:52 PM
   -->
 
 <resources>
@@ -11,13 +11,44 @@
     <string name="history_button">History of New Westminster</string>
     <string name="food_button">Food Programs and Services</string>
     <string name="water_button">Water Fountains on a Map</string>
-    <string name="news_button">News about New Westminster</string>
+    <string name="news_button">News About Canada</string>
     <string name="about_button">About us</string>
     <string name="copyright_text">Copyright© 2017 Taran Rai Chris Kwon</string>
     <string name="history_banner">New Westminster History</string>
     <string name="history_1">In 1859, the city was selected as the first capital of the new colony of British Columbia and named the “New Westminster” by Queen Victoria, after her favourite part of London.</string>
     <string name="history_2">With this naming by the Queen, New Westminster gained the moniker “The Royal City”, and became the first city in Western Canada. The fortunes of the city have ebbed and flowed since those early days but today New Westminster is an important industrial hub filled with parklands, waterfront views, and historic charm.</string>
-    <string name="history_3">Although the Great Fire of 1898 destroyed one-third of the city, some early buildings remain and these vestiges of its historic roots now contribute immensely to the character of the community. It is also the setting for some fine contemporary architecture. The extensive public landscaping and the pride that private property owners take in the care of their homes contribute to the overall beauty of the area.</string>\
+    <string name="history_3">Although the Great Fire of 1898 destroyed one-third of the city, some early buildings remain and these vestiges of its historic roots now contribute immensely to the character of the community. It is also the setting for some fine contemporary architecture. The extensive public landscaping and the pride that private property owners take in the care of their homes contribute to the overall beauty of the area.</string>
     <string name="history_4">New Westminster is also home to some key facilities in the Lower Mainland. Royal Columbian Hospital is the third largest hospital in the Lower Mainland serving residents from Burnaby to Hope. It is a major referral centre specializing in trauma, obstetrical, cardio-vascular and critical care. Douglas College is one of the largest colleges in the Lower Mainland with over 10,000 students in credit programs. The college provides non-credit community response to over 24,000 adults who participate in part-time vocational or personal enrichment programs and has a strong orientation to social services, health sciences, business and university transfer students.</string>
     <string name="history_5">With a strong local economy and a community built upon a rich heritage, New Westminster has certainly lived up to its name as the Royal City. It’s a great place to live and an unforgettable visitor destination.</string>
+    <string name="about_heading">About Us</string>
+    <string name="created_by">Created by Taran Rai and Chris Kwon</string>
+    <string name="copyright_info">Copyright &#169; 2017. All rights reserved</string>
+    <string name="application_name_tag">Application Name:</string>
+    <string name="title_activity_food_programs_and_services">Food Programs and Services</string>
+    <string name="intent_name">name</string>
+    <string name="intent_description">description</string>
+    <string name="intent_hours">hours</string>
+    <string name="intent_location">location</string>
+    <string name="intent_postal_code">postal_code</string>
+    <string name="intent_phone">phone</string>
+    <string name="intent_email">email</string>
+    <string name="intent_website_url">website_url</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="hours">Hours:</string>
+    <string name="location">Location:</string>
+    <string name="postal_code">Postal Code:</string>
+    <string name="phone">Phone:</string>
+    <string name="email">E-Mail:</string>
+    <string name="website_url">Website URL:</string>
+    <string name="title_activity_drinking_fountains">Drinking Fountains</string>
+    <string name="fps_details_heading">Food Programs And Services Details Page</string>
+    <string name="dfs_details_heading">Drinking Fountains Details Page</string>
+    <string name="intent_structureId">structureId</string>
+    <string name="intent_parkName">parkName</string>
+    <string name="intent_objectId">objectId</string>
+    <string name="structureId">Structure ID:</string>
+    <string name="parkName">Park Name:</string>
+    <string name="objectId">Object ID:</string>
+    <string name="not_available">NOT AVAILABLE</string>
 </resources>

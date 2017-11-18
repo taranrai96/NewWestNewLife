@@ -1,0 +1,254 @@
+[
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Douglas College Food Bank",
+		"Description" : "Provides food bank services for Douglas College students.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Monday-Friday, 9:00 am - 4:00 pm",
+		"Location" : "700 Royal Avenue",
+		"PC" : "V3M 5Z5",
+		"Phone" : "(604)527-5110",
+		"Email" : "nwcoordinator@douglasstudentsunion.ca",
+		"Website" : "http://dsu18.ca/services/food-bank/",
+		"X" : "-122.91274781516022",
+		"Y" : "49.20350201411526",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.91274781516022, 49.20350201411526 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Ecole Qayqayt Elementary School - Hot Lunch Program",
+		"Description" : "Provides an in-house hot lunch program for Ecole Qayqayt Elementary School Students (grades K-7).",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "85 Merivale Street",
+		"PC" : "V3L 0G2",
+		"Phone" : "(604)517-6168",
+		"Email" : "bwheeler@sd40.bc.ca",
+		"Website" : "http://district.sd40.bc.ca/services/school-meals",
+		"X" : "-122.90512117149315",
+		"Y" : "49.20793631315965",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.90512117149315, 49.20793631315965 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Holy Trinity Anglican Cathedral - Breakfast Program",
+		"Description" : "Drop-in breakfast.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Thursday, 8:00 am - 9:00 am",
+		"Location" : "514 Carnarvon Street",
+		"PC" : "V3L 1C4",
+		"Phone" : "(604)521-2511",
+		"Email" : "",
+		"Website" : "http://holytrinitycathedral.ca/our-programs/breakfast-program/",
+		"X" : "-122.90751533580699",
+		"Y" : "49.20460949200707",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.90751533580699, 49.20460949200707 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Lord Kelvin Elementary School - Hot Lunch Program",
+		"Description" : "Provides an in-house hot lunch program for Lord Kelvin Elementary School Students (grades K-7).",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "1010 Hamilton Street",
+		"PC" : "V3M 2M9",
+		"Phone" : "(604)517-6168",
+		"Email" : "bwheeler@sd40.bc.ca",
+		"Website" : "http://district.sd40.bc.ca/services/school-meals",
+		"X" : "-122.93019210086733",
+		"Y" : "49.210734343015645",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.93019210086733, 49.210734343015645 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "New Westminster Family Place",
+		"Description" : "Food bank drop-in.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Tuesday - Wednesday, 9:00 am - 11:00 am",
+		"Location" : "101 - 93 Sixth Street",
+		"PC" : "V3L 2Z8",
+		"Phone" : "(604)520-3666",
+		"Email" : "info@nwfamily.bc.ca",
+		"Website" : "http://nwfamily.bc.ca/?page_id=21",
+		"X" : "-122.90992211784747",
+		"Y" : "49.20530886689635",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.90992211784747, 49.20530886689635 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Port Royal Community Garden",
+		"Description" : "New Westminster residents can grow food in a community garden in Port Royal. Actual community garden is located in Port Royal Park (near Star Crescent); location shown is just the administrative location. There are other community gardens in New Westminster, with more information available on the New Westminster Parks and Rec Society website (http://www.newwestpcr.ca/parks/park_amenities/community_gardens.php).",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "920 Ewen Avenue",
+		"PC" : "V3M 5C8",
+		"Phone" : "(604)525-7388",
+		"Email" : "rchadwick@newwestcity.ca",
+		"Website" : "http://www.portroyalgardens.ca/about/",
+		"X" : "-122.9436168718548",
+		"Y" : "49.18588392554472",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.9436168718548, 49.18588392554472 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Pregnancy Outreach Programs - Olivet Baptist Church",
+		"Description" : "These programs assist pregnant women and their infants who need extra help and support. Programs may provide weekly lunches, food vouchers and prenatal vitamins. Program provided through Burnaby Family Life Institute.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Tuesday, 10:30 am - 1:00 pm for moms and babies up to 6 months, Tuesday, 12:00 pm - 2:30 pm for pregnant women",
+		"Location" : "613 Queens Avenue",
+		"PC" : "V3M 1L1",
+		"Phone" : "(604)659-2200",
+		"Email" : "bfl_info@burnabyfamilylife.org",
+		"Website" : "http://www.fraserhealth.ca/find-us/services/our-services?program_id=13648",
+		"X" : "-122.91421070035818",
+		"Y" : "49.2068182806286",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.91421070035818, 49.2068182806286 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Queen Elizabeth Elementary School - Hot Lunch Program",
+		"Description" : "Provides an in-house hot lunch program for Queen Elizabeth Elementary School Students (grades K-4).",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "921 Salter Street",
+		"PC" : "V3M 6G8",
+		"Phone" : "(604)517-6168",
+		"Email" : "bwheeler@sd40.bc.ca",
+		"Website" : "http://district.sd40.bc.ca/services/school-meals",
+		"X" : "-122.9435723162792",
+		"Y" : "49.1848190369933",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.9435723162792, 49.1848190369933 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Queens Avenue United Church - Community Lunch",
+		"Description" : "Community lunch.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Wednesday, 11:30 am - 1:00 pm",
+		"Location" : "529 Queens Avenue",
+		"PC" : "V3L 1K2",
+		"Phone" : "(604)522-1606",
+		"Email" : "queensaveuc@telus.net",
+		"Website" : "http://queensavenue.org/ministries/community-lunch/",
+		"X" : "-122.91249284301858",
+		"Y" : "49.207653330265714",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.91249284301858, 49.207653330265714 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Queensborough Middle School - Hot Lunch Program",
+		"Description" : "Provides an in-house hot lunch program for Queensborough Middle School Students (grades 5-8).",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "833 Salter Street",
+		"PC" : "V3M 6G8",
+		"Phone" : "(604)517-6168",
+		"Email" : "bwheeler@sd40.bc.ca",
+		"Website" : "http://district.sd40.bc.ca/services/school-meals",
+		"X" : "-122.94093147077892",
+		"Y" : "49.18632001342384",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.94093147077892, 49.18632001342384 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Saint Barnabas Anglican Church- Community Meal and Food Cupboard Programs",
+		"Description" : "Community meal provides lunch and is open to all. Food cupboard program provides emergency food hampers for a couple of meals.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Community Meal: Thursday, 11:00 am, Emergency Food Cupboard: Friday, 10:00 am-12:00 pm",
+		"Location" : "1010 Fifth Avenue",
+		"PC" : "V3M 1Y5",
+		"Phone" : "(604)526-6646",
+		"Email" : "",
+		"Website" : "http://stbarnabasparish.ca/ministry/",
+		"X" : "-122.92552052207931",
+		"Y" : "49.207702269467006",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.92552052207931, 49.207702269467006 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Salvation Army - Community Lunch and Food Programs",
+		"Description" : "Community lunch program. Drop in food program (free bread), emergency food rations available by appointment. Also has a produce day program.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Emergency food program: Monday-Friday, 10:00 am - 12:00 pm (by appointment). Saturday Brunch: Saturday, 10:00 am. Sunday meal program: Sunday, 12:30 pm, Produce day program: Wednesday, 1:00 pm",
+		"Location" : "325 Sixth Street",
+		"PC" : "V3L 3A9",
+		"Phone" : "(604)521-2421",
+		"Email" : "",
+		"Website" : "http://www.salvationarmy.ca/britishcolumbia/regions/",
+		"X" : "-122.91567883408926",
+		"Y" : "49.20982419482195",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.91567883408926, 49.20982419482195 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Spirit of the Children Society - Traditional Kitchen for Aboriginal Families and Youth",
+		"Description" : "Create a meal together in positive environment, share and learn recipes, learn how to shop for foods on a budget, learn about healthy eating habits, and experience traditional Aboriginal foods.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "",
+		"Location" : "201 - 768 Columbia Street",
+		"PC" : "V3M 1B4",
+		"Phone" : "(604)524-9113",
+		"Email" : "reception@sotcs.ca",
+		"Website" : "http://www.sotcs.ca/programsservices/traditional-kitchen-for-aboriginal-families-and-youth/",
+		"X" : "-122.910794429807",
+		"Y" : "49.201189703788145",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.910794429807, 49.201189703788145 ]
+		}
+	},
+	{
+		"json_featuretype" : "FOOD_PROGRAMS_AND_SERVICES",
+		"Name" : "Union Gospel Mission",
+		"Description" : "Breakfast and soup programs.",
+		"Category" : "Food Programs and Services",
+		"Hours" : "Breakfast Service: Monday-Friday, 8:30 am - 9:30 am, Soup Service: Monday-Friday, 11:15 am - 12:00 pm",
+		"Location" : "658 Clarkson Street",
+		"PC" : "V3M 1E1",
+		"Phone" : "(604)525-8989",
+		"Email" : "contact@ugm.ca ",
+		"Website" : "https://www.ugm.ca/program-meal-times/",
+		"X" : "-122.90934416053088",
+		"Y" : "49.202799308421426",
+		"json_geometry" : {
+			"type" : "Point",
+			"coordinates" : [ -122.90934416053088, 49.202799308421426 ]
+		}
+	}
+]

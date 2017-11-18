@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+  ~ Created by Taran Rai Chris Kwon on 17/11/17 2:06 PM
   ~ Copyright (c) 2017. All rights reserved
   ~
-  ~ Last modified 30/09/17 1:17 AM
+  ~ Last modified 13/11/17 10:21 PM
   -->
 
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="text_icons">#FFFFFF</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="copyright_text">#D3D3D3</color>
+    <color name="White">#ffffff</color>
 </resources>

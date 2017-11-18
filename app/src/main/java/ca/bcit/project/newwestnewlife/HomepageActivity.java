@@ -1,8 +1,8 @@
 /*
- * Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+ * Created by Taran Rai Chris Kwon on 17/11/17 2:06 PM
  * Copyright (c) 2017. All rights reserved
  *
- * Last modified 11/10/17 1:10 PM
+ * Last modified 16/11/17 8:25 PM
  */
 
 package ca.bcit.project.newwestnewlife;
@@ -27,6 +27,31 @@ public class HomepageActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent historyIntent = new Intent(HomepageActivity.this, HistoryActivity.class);
                 startActivity(historyIntent);
+            }
+        });
+
+        Button aboutUsButton = (Button) findViewById(R.id.aboutButton);
+        aboutUsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent aboutIntent = new Intent(HomepageActivity.this, AboutUs.class);
+                startActivity(aboutIntent);
+            }
+        });
+
+        Button foodProgramsButton = (Button) findViewById(R.id.foodButton);
+        foodProgramsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent foodIntent = new Intent(HomepageActivity.this, FoodProgramsAndServices.class);
+                startActivity(foodIntent);
+            }
+
+        });
+
+        Button drinkingFountainsButton = (Button) findViewById(R.id.waterButton);
+        drinkingFountainsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent drinkIntent = new Intent(HomepageActivity.this, DrinkingFountains.class);
+                startActivity(drinkIntent);
             }
         });
     }
