@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Created by Taran Rai Chris Kwon on 11/10/17 1:10 PM
+  ~ Created by Taran Rai Chris Kwon on 17/11/17 2:06 PM
   ~ Copyright (c) 2017. All rights reserved
   ~
-  ~ Last modified 11/10/17 12:22 PM
--->
+  ~ Last modified 16/11/17 8:42 PM
+  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ca.bcit.project.newwestnewlife">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +28,28 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomepageActivity" />
-        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".AboutUs" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".FoodProgramsAndServices"
+            android:label="@string/title_activity_food_programs_and_services" />
+        <activity android:name=".FoodProgramsAndServicesDetails" />
+        <activity
+            android:name=".DrinkingFountains"
+            android:label="@string/title_activity_drinking_fountains" />
+        <activity android:name=".DrinkingFountainsDetails"></activity>
     </application>
 
 </manifest>
