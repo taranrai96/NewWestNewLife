@@ -18,4 +18,6 @@ public class NewsData {
     private String _url;
     private String _urlToImage;
 
+
 }
+

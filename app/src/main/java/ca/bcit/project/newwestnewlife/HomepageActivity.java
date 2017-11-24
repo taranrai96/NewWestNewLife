@@ -54,5 +54,13 @@ public class HomepageActivity extends AppCompatActivity {
                 startActivity(drinkIntent);
             }
         });
+
+        Button newsButton = (Button) findViewById(R.id.newsButton);
+        newsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent newsIntent = new Intent(HomepageActivity.this, NewsDetails.class);
+                startActivity(newsIntent);
+            }
+        });
     }
 }
