@@ -3,7 +3,7 @@
   ~ Copyright (c) 2017. All rights reserved
   ~
   ~ Last modified 16/11/17 8:42 PM
-  -->
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ca.bcit.project.newwestnewlife">
 
@@ -13,6 +13,7 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -49,7 +50,8 @@
         <activity
             android:name=".DrinkingFountains"
             android:label="@string/title_activity_drinking_fountains" />
-        <activity android:name=".DrinkingFountainsDetails"></activity>
+        <activity android:name=".DrinkingFountainsDetails" />
+        <activity android:name=".NewsDetails"></activity>
     </application>
 
 </manifest>
