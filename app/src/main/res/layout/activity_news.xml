@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Created by Taran Rai Chris Kwon on 23/11/17 7:29 PM
+~ Copyright (c) 2017. All rights reserved
+~
+~ Last modified 23/11/17 7:29 PM
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_details_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context="ca.bcit.project.newwestnewlife.News">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news_heading"
+        style="@style/ActivityBanner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/colorPrimary"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_list"
+        style="@style/listview_news_style" >
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>

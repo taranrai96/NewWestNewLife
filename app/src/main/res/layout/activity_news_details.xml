@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Created by Taran Rai Chris Kwon on 23/11/17 7:29 PM
+  ~ Created by Taran Rai Chris Kwon on 24/11/17 2:27 PM
   ~ Copyright (c) 2017. All rights reserved
   ~
-  ~ Last modified 23/11/17 7:29 PM
+  ~ Last modified 24/11/17 2:27 PM
   -->
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ca.bcit.project.newwestnewlife.NewsDetails">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/news_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="ca.bcit.project.newwestnewlife.NewsDetails">
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_title"
+            style="@style/news_title_style" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/news_image_height"
+            android:layout_gravity="center"
+            android:id="@+id/news_image"
+            style="@style/news_image"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/author"
+            style="@style/news_authored_by"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/published"
+            style="@style/published_at_style" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            style="@style/news_description"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/url"
+            style="@style/news_url" />
+
+    </LinearLayout>
+</ScrollView>

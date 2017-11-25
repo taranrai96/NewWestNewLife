@@ -70,4 +70,62 @@
         <item name="android:layout_marginLeft">10dp</item>
     </style>
 
+    <style name="listview_news_style">
+        <item name="android:divider">@color/colorPrimary</item>
+        <item name="android:dividerHeight">7dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="news_title_style">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="news_authored_by">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:titleMarginBottom">7dp</item>
+    </style>
+
+    <style name="news_description">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:titleMarginBottom">7dp</item>
+    </style>
+
+    <style name="news_image">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="news_url">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:titleMarginBottom">7dp</item>
+        <item name="android:autoLink">web</item>
+    </style>
+
+    <style name="published_at_style">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:titleMarginBottom">7dp</item>
+    </style>
+
+    <style name="detail_url_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:autoLink">web</item>
+    </style>
+
 </resources>

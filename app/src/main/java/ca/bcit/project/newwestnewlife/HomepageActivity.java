@@ -58,7 +58,7 @@ public class HomepageActivity extends AppCompatActivity {
         Button newsButton = (Button) findViewById(R.id.newsButton);
         newsButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent newsIntent = new Intent(HomepageActivity.this, NewsDetails.class);
+                Intent newsIntent = new Intent(HomepageActivity.this, News.class);
                 startActivity(newsIntent);
             }
         });

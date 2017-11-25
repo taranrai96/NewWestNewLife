@@ -33,6 +33,7 @@
     <string name="intent_phone">phone</string>
     <string name="intent_email">email</string>
     <string name="intent_website_url">website_url</string>
+    <string name="Ally">I Love My Baby!</string>
     <string name="name">Name:</string>
     <string name="description">Description:</string>
     <string name="hours">Hours:</string>
@@ -51,4 +52,9 @@
     <string name="parkName">Park Name:</string>
     <string name="objectId">Object ID:</string>
     <string name="not_available">NOT AVAILABLE</string>
+    <string name="news_heading">News in Canada</string>
+    <string name="author_info_not">Author Information Unavailable</string>
+    <string name="news_url">URL to Article:</string>
+    <string name="author_info">Authored By:</string>
+    <string name="published_at">Published At:</string>
 </resources>

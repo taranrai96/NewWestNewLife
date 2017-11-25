@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/website"
-            style="@style/detail_style" />
+            style="@style/detail_url_style" />
 
     </LinearLayout>
 
