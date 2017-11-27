@@ -11,4 +11,10 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="news_image_height">300dp</dimen>
     <dimen name="news_image_width">410dp</dimen>
+    <dimen name="about_us_left">7dp</dimen>
+    <dimen name="about_us_bottom">7dp</dimen>
+    <dimen name="logo_width_home">300dp</dimen>
+    <dimen name="logo_height_home">120dp</dimen>
+    <!--<dimen name="about_us_left">18dp</dimen>
+    <dimen name="about_us_bottom">53dp</dimen>-->
 </resources>

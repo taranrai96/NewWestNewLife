@@ -6,10 +6,6 @@
   ~ Last modified 16/11/17 11:47 AM
   -->
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -25,44 +21,43 @@
             android:text="@string/about_heading"
             style="@style/ActivityBanner"/>
 
+        <ImageView
+            android:layout_width="@dimen/logo_width_home"
+            android:layout_height="@dimen/logo_height_home"
+            android:src="@drawable/logo"
+            style="@style/homepageImage"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/app_name"
-            style="@style/device_info"/>
+            style="@style/about_info"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/created_by"
-            style="@style/device_info"/>
+            style="@style/about_info"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/copyright_info"
-            style="@style/device_info"/>
+            style="@style/about_info"/>
 
-        <android.support.design.widget.CoordinatorLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="553dp"
-            tools:context="ca.bcit.project.newwestnewlife.AboutUs"
-            android:id="@+id/coordinator">
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ca.bcit.project.newwestnewlife.AboutUs">
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floating_back_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start|bottom"
-            android:layout_margin="16dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:src="@drawable/ic_arrow_back_white_24dp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_back_button"
+        style="@style/floating_action_bar_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" />
 
-    </android.support.design.widget.CoordinatorLayout>
+</android.support.design.widget.CoordinatorLayout>
 
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>
