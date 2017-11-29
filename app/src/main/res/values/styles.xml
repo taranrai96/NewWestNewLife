@@ -23,15 +23,15 @@
     </style>
 
     <style name="homepageImage">
-        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginTop">@dimen/image_margin_top_40</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginBottom">60dp</item>
+        <item name="android:layout_marginBottom">@dimen/image_margin_bottom_60</item>
     </style>
 
     <style name="copyrightStyle">
         <item name="android:textColor">@color/copyright_text</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginTop">@dimen/copyright_margin_top_30</item>
     </style>
 
     <style name="ActivityBanner">
@@ -39,21 +39,21 @@
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:textColor">@color/White</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">14pt</item>
+        <item name="android:textSize">@dimen/banner_text_size_14</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="historyImage">
-        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginTop">@dimen/history_image_margin_top_15</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_width">325dp</item>
-        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_width">@dimen/history_image_width_325</item>
+        <item name="android:layout_height">@dimen/history_image_height_200</item>
     </style>
 
     <style name="historyText">
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginBottom">5dp</item>
-        <item name="android:textSize">8pt</item>
+        <item name="android:layout_marginTop">@dimen/history_text_margin_5</item>
+        <item name="android:layout_marginBottom">@dimen/history_text_margin_5</item>
+        <item name="android:textSize">@dimen/history_text_text_size_8</item>
         <item name="android:gravity">center</item>
     </style>
 
@@ -61,44 +61,44 @@
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">@dimen/about_info_text_size_18</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="detail_style">
-        <item name="android:textSize">16sp</item>
-        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">@dimen/detail_style_text_size_16</item>
+        <item name="android:layout_marginTop">@dimen/detail_style_margin_top_12</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/detail_style_margin_left_10</item>
     </style>
 
     <style name="listview_news_style">
         <item name="android:divider">@color/colorPrimary</item>
-        <item name="android:dividerHeight">7dp</item>
+        <item name="android:dividerHeight">@dimen/news_divider_height_7</item>
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <style name="news_title_style">
-        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginTop">@dimen/news_title_margin_top_10</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">26sp</item>
+        <item name="android:textSize">@dimen/news_title_text_size_26</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="news_authored_by">
         <item name="android:gravity">left</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:layout_marginTop">7dp</item>
-        <item name="android:titleMarginBottom">7dp</item>
+        <item name="android:layout_marginLeft">@dimen/news_authored_by_margin_left_10</item>
+        <item name="android:textSize">@dimen/news_authored_by_text_size_15</item>
+        <item name="android:layout_marginTop">@dimen/news_authored_by_margin_top_7</item>
+        <item name="android:titleMarginBottom">@dimen/news_authored_by_margin_bottom_7</item>
     </style>
 
     <style name="news_description">
         <item name="android:gravity">left</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_marginTop">7dp</item>
-        <item name="android:titleMarginBottom">7dp</item>
+        <item name="android:layout_marginLeft">@dimen/news_description_margin_left_10</item>
+        <item name="android:textSize">@dimen/news_description_text_size_20</item>
+        <item name="android:layout_marginTop">@dimen/news_description_margin_top_7</item>
+        <item name="android:titleMarginBottom">@dimen/news_description_margin_bottom_7</item>
     </style>
 
     <style name="news_image">
@@ -107,26 +107,26 @@
 
     <style name="news_url">
         <item name="android:gravity">left</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:layout_marginTop">7dp</item>
-        <item name="android:titleMarginBottom">7dp</item>
+        <item name="android:layout_marginLeft">@dimen/news_url_margin_left_10</item>
+        <item name="android:textSize">@dimen/news_url_text_size_15</item>
+        <item name="android:layout_marginTop">@dimen/news_url_margin_top_7</item>
+        <item name="android:titleMarginBottom">@dimen/news_url_margin_bottom_7</item>
         <item name="android:autoLink">web</item>
     </style>
 
     <style name="published_at_style">
         <item name="android:gravity">left</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:layout_marginTop">4dp</item>
-        <item name="android:titleMarginBottom">7dp</item>
+        <item name="android:layout_marginLeft">@dimen/published_at_margin_left_10</item>
+        <item name="android:textSize">@dimen/published_at_text_size_15</item>
+        <item name="android:layout_marginTop">@dimen/published_at_margin_top_4</item>
+        <item name="android:titleMarginBottom">@dimen/published_at_margin_bottom_7</item>
     </style>
 
     <style name="detail_url_style">
-        <item name="android:textSize">16sp</item>
-        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">@dimen/detail_url_text_size_16</item>
+        <item name="android:layout_marginTop">@dimen/detail_url_margin_top_12</item>
         <item name="android:textColor">@color/colorPrimary</item>
-        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/detail_url_margin_left_10</item>
         <item name="android:autoLink">web</item>
     </style>
 
@@ -140,9 +140,9 @@
     </style>
 
     <style name="about_us_image">
-        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginTop">@dimen/about_us_image_margin_40</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:layout_marginBottom">@dimen/about_us_image_margin_40</item>
     </style>
 
 </resources>

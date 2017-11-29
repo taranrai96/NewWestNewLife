@@ -6,67 +6,73 @@
   ~ Last modified 11/10/17 1:13 PM
   -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_alignParentTop="true"
-    android:layout_marginTop="30dp"
-    tools:context="ca.bcit.project.newwestnewlife.HomepageActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <ImageView
-        android:layout_width="@dimen/logo_width_home"
-        android:layout_height="@dimen/logo_height_home"
-        android:src="@drawable/logo"
-        style="@style/homepageImage"/>
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        tools:context="ca.bcit.project.newwestnewlife.HomepageActivity">
 
-        <Button
-            android:text="@string/history_button"
+        <ImageView
+            android:layout_width="@dimen/logo_width_home"
+            android:layout_height="@dimen/logo_height_home"
+            android:src="@drawable/logo"
+            style="@style/homepageImage"/>
+
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/historyButton"
-            style="@style/buttonStyle" />
+            android:layout_height="match_parent">
 
-        <Button
-            android:text="@string/food_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/foodButton"
-            style="@style/buttonStyle"/>
+            <Button
+                android:text="@string/history_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/historyButton"
+                style="@style/buttonStyle" />
 
-        <Button
-            android:text="@string/water_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/waterButton"
-            style="@style/buttonStyle" />
+            <Button
+                android:text="@string/food_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/foodButton"
+                style="@style/buttonStyle"/>
 
-        <Button
-            android:text="@string/news_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/newsButton"
-            style="@style/buttonStyle" />
+            <Button
+                android:text="@string/water_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/waterButton"
+                style="@style/buttonStyle" />
 
-        <Button
-            android:text="@string/about_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/aboutButton"
-            style="@style/buttonStyle" />
+            <Button
+                android:text="@string/news_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newsButton"
+                style="@style/buttonStyle" />
 
-        <TextView
-            android:text="@string/copyright_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/copyrightStyle"/>
+            <Button
+                android:text="@string/about_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aboutButton"
+                style="@style/buttonStyle" />
+
+            <TextView
+                android:text="@string/copyright_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/copyrightStyle"/>
+        </LinearLayout>
+
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
